@@ -26,3 +26,11 @@
 <p>যখন আমরা একটা ডাটা টাইপ থেকে আরেকটা ডাটা টাইপে চলে যাই একে বলে Type Conversion. Infinity কে আমরা নাম্বারে কনভার্ট করতে পারি নাহ কিন্তু string and boolean এ কনভার্ট করতে পারি। আর boolean এ কনভার্ট করলে এটা সবসময় true return করবে কারণ js infinity কে একটা নাম্বার ধরে নিয়েছে। আর number হচ্ছে truthy value.Truthy/Falsy value কিন্তু true আর false এর মতো নাহ। </p>
 
 <p>Falsy Value: '', null, undefined, NaN, 0, -0. এগুলো সবগুলা false না হলেও JS Compailer এগুলো কে false হিসেবে treat করবে। </p>
+
+
+### Some Important Information from Javascript Info
+Most of the time, operators and functions automatically convert the values given to them to the right type. Numeric conversion in mathematical functions and expressions happens automatically. For example, when division / is applied to non-numbers:
+
+`alert( "6" / "2" );`
+
+

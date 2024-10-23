@@ -38,3 +38,13 @@ console.log(++a);`
 `||` লজিকাল অর দ্বারা বুঝায় যে কোন একটি ভেলু সত্য হলেই true রিটার্ন করবে। 
 `!` নট অপারেটর কোন ভেলু কে পরিবর্তন করতে ব্যাবহার হয়। মানে true থাকলে false করবে, আর false থাকলে true করবে। 
 আরেকটি অপারেটর রয়েছে সেটা হলো `type of` অপারেটর। এটা কোন ভেলুর ডাটা কোন টাইপের সেটা আমাদের দেয়। 
+
+
+## Javascript Info
+#### To see whether a string is greater than another, JavaScript uses the so-called “dictionary” or “lexicographical” order.
+When comparing values of different types, JavaScript converts the values to numbers.
+`alert( '2' > 1 ); // true`
+For boolean values, true becomes 1 and false becomes 0.
+
+`alert( true == 1 ); // true
+alert( false == 0 ); // true`
